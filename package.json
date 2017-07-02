@@ -1,0 +1,23 @@
+{
+  "name": "breakify",
+  "version": "1.0.0",
+  "description": "The opposite of promisify.",
+  "main": "breakify.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanHulton/breakify.git"
+  },
+  "keywords": [
+    "node",
+    "promisify"
+  ],
+  "author": "Dan Hulton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanHulton/breakify/issues"
+  },
+  "homepage": "https://github.com/DanHulton/breakify#readme"
+}
