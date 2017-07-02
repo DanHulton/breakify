@@ -9,18 +9,18 @@ Seems silly, right?  Except if you're in the middle of converting a project from
 const breakify  = require('breakify');
 
 function callbackFunction(callback) {
-	const wrapper = async () => {
-		const someFunctionAsync = promisify(someFunction);
-		const value = await someFunctionAsync();
+    const wrapper = async () => {
+        const someFunctionAsync = promisify(someFunction);
+        const value = await someFunctionAsync();
 
-		if (value === 0) {
-			throw new Error("You can't have 0, don't you know that?");
-		}
+        if (value === 0) {
+            throw new Error("You can't have 0, don't you know that?");
+        }
 
-		return value;
-	}
+        return value;
+    }
 
-	breakify(wrapper(), callback);
+    breakify(wrapper(), callback);
 }
 ```
 
