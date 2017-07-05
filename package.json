@@ -1,6 +1,6 @@
 {
   "name": "breakify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The opposite of promisify.",
   "main": "breakify.js",
   "scripts": {
